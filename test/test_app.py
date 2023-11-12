@@ -13,8 +13,8 @@ def numbers():
 class TestApp:
     def test_multiplication(self, numbers):
         res = multiply_by_two(numbers[0])
-        #assert res == numbers[1]
-        assert res != numbers[1]
+        assert res == numbers[1]
+        #assert res != numbers[1]
 
     def test_division(self, numbers):
         res = divide_by_two(numbers[1])
